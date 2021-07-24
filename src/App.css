@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.main{
+    background-color: #f0eded;
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    margin: 20px;
+}
+.bank-card{
+    height: 200px;
+    background-color: #fff;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.money-line-outline{
+    margin:20px 40px;
+    width: 220px;
+    height: 10px;
+    border: 0.5px #f2f0f0 solid;
+    border-radius: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.money-line-in1{
+    width: 150px;
+    height: 10px;
+    background-color:#36e356;
+    border-radius: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.money-line-in2{
+    width: 60px;
+    height: 10px;
+    background-color:#e36040;
+    border-radius: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.money-line-in3{
+    width: 75px;
+    height: 10px;
+    background-color:#e3e036;
+    border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.money-line-in4{
+    width: 85px;
+    height: 10px;
+    background-color:#36e356;
+    border-radius: 12px;
+}
+
+.links{
+    font-size: 14px;
+    color: #15b9d6;
 }
